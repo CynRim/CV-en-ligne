@@ -1,0 +1,402 @@
+                         /*----POLICE------*/
+                         
+                         @font-face {
+                             font-family: 'alegreyaregular';
+                             src: url('alegreya-regular-webfont.woff2') format('woff2'), url('alegreya-regular-webfont.woff') format('woff'), url('alegreyaregular.ttf') format('truetype'), url('alegreyaregular.svg') format('svg');
+                             font-weight: normal;
+                             font-style: normal;
+                         }
+                         
+                         #contenu {
+                             font-family: 'alegreyregular', sans-serif;
+                             font-size: 15px;
+                             background-color: #DADBDD;
+                             color: #FFFFFF;
+                             display: flex;
+                             max-width: 900px;
+                             margin: auto;
+                         }
+                         
+                         li {
+                             list-style-type: none;
+                         }
+                         
+                         a {
+                             color: #D4E0CE;
+                         }
+                         /*----ASIDE------*/
+                         
+                         #liseret {
+                             max-width: 270px;
+                             display: flex;
+                             flex-direction: column;
+                             background-color: #004058;
+                         }
+                         
+                         #photo {
+                             align-self: center;
+                             margin-top: 30px;
+                             border: solid 3px rgba(0, 0, 0, 0.3);
+                             border-radius: 50%;
+                             max-width: 150px;
+                             max-height: 150px;
+                             overflow: hidden;
+                         }
+                         
+                         #photo_header {
+                             display: none;
+                         }
+                         
+                         .photo {
+                             display: block;
+                             max-width: 120%;
+                             transform: translate(-10px, -25px);
+                         }
+                         
+                         .aside_titre {
+                             text-align: center;
+                             text-transform: uppercase;
+                             color: #004058;
+                             background-color: #66ACAE;
+                             padding: 2%;
+                             font-family: Georgia, 'Times New Roman', Times, serif;
+                             font-weight: normal;
+                             font-size: 1.4em;
+                         }
+                         
+                         .aside_titre_gras {
+                             text-align: center;
+                             text-transform: uppercase;
+                             color: #004058;
+                             background-color: #66ACAE;
+                             padding: 2%;
+                             font-family: Georgia, 'Times New Roman', Times, serif;
+                             font-weight: normal;
+                             font-size: 1.4em;
+                         }
+                         
+                         .contact {
+                             padding-left: 8%;
+                             font-weight: bold;
+                             overflow-wrap: break-word;
+                         }
+                         
+                         .contact li {
+                             margin-bottom: 5%;
+                         }
+                         
+                         #a_propos {
+                             flex: 1;
+                         }
+                         
+                         aside p {
+                             text-align: justify;
+                             margin: 8%;
+                         }
+                         
+                         .icon_loisirs {
+                             display: flex;
+                             justify-content: space-around;
+                             flex-wrap: wrap;
+                             margin-bottom: 5%;
+                             color: #66ACAE;
+                         }
+                         /*----HEADER------*/
+                         
+                         header {
+                             margin-bottom: 12.5%;
+                         }
+                         
+                         h1 {
+                             text-transform: uppercase;
+                             font-weight: 300;
+                             font-family: Georgia, 'Times New Roman', Times, serif;
+                             font-size: 2.5em;
+                             color: #000000;
+                             margin-top: 8%;
+                             margin-bottom: 0;
+                             margin-left: 6.5%;
+                             padding-bottom: 0;
+                         }
+                         
+                         #prenom {
+                             font-weight: 400;
+                             color: #004058;
+                         }
+                         
+                         h2 {
+                             margin-top: 0;
+                             margin-left: 6.5%;
+                             padding-top: 0;
+                             font-size: 1.5em;
+                             color: rgba(06, 06, 06, 1)
+                         }
+                         
+                         #souligne_dev {
+                             border-bottom: solid;
+                             border-color: #004058;
+                         }
+                         
+                         #photo_mobile {
+                             display: none;
+                             align-self: center;
+                             margin-top: 30px;
+                             border: solid 3px rgba(0, 64, 88, 0.3);
+                             border-radius: 50%;
+                             width: 150px;
+                             height: 150px;
+                             overflow: hidden;
+                         }
+                         /*----PAGE CENTRALE------*/
+                         
+                         #centre {
+                             flex: 1;
+                         }
+                         
+                         .page_article {
+                             margin-right: 30px;
+                         }
+                         
+                         .page_titre {
+                             margin-left: 6.5%;
+                             padding-bottom: 10px;
+                             text-transform: uppercase;
+                             font-size: 1.5em;
+                             font-weight: bold;
+                             display: flex;
+                             border-bottom: solid #000;
+                         }
+                         
+                         .page_titre h3 {
+                             font-size: 1em;
+                             margin: 0;
+                         }
+                         
+                         .icon_article {
+                             color: #FF0000;
+                         }
+                         
+                         .page_titre div {
+                             margin-right: 5%;
+                         }
+                         
+                         .page_liste {
+                             margin-left: 8%;
+                             padding-left: 0;
+                         }
+                         
+                         .formation,
+                         .profession {
+                             display: flex;
+                             justify-content: space-between;
+                             margin-bottom: 5%;
+                         }
+                         
+                         .puce_bloc {
+                             display: flex;
+                             font-weight: bold;
+                         }
+                         
+                         .page_puce {
+                             color: #4CAF50;
+                             font-size: 0.8em;
+                             margin-right: 10px;
+                         }
+                         
+                         h4,
+                         h5 {
+                             display: inline-block;
+                             margin: 0 0 1.5% 0;
+                         }
+                         
+                         h4 {
+                             font-weight: bold;
+                             font-size: 1.1em;
+                             text-transform: uppercase;
+                         }
+                         
+                         h5 {
+                             font-weight: normal;
+                             font-size: 1em;
+                         }
+                         
+                         .texte_paragraphe p {
+                             margin: 0;
+                         }
+                         
+                         .formation div {
+                             max-width: 400px;
+                         }
+                         
+                         .profession div {
+                             max-width: 400px;
+                         }
+                         
+                         .recommandation {
+                             display: flex;
+                             justify-content: space-between;
+                             flex-wrap: wrap;
+                             margin-bottom: 20px;
+                             margin-left: 50px;
+                             margin-right: 50px;
+                             margin-top: 15px;
+                         }
+                         
+                         p span {
+                             font-weight: bold;
+                         }
+                         /*----------------RESPONSIVE DESIGN-------------------------------*/
+                         /*----------------TABLETTES---------------------------------------*/
+                         
+                         @media all and (max-width: 900px) {
+                             /*----ORGANISATON DE LA PAGE------*/
+                             #contenu {
+                                 flex-direction: column;
+                                 width: auto;
+                             }
+                             /*----HEADER------*/
+                             #header {
+                                 margin: auto;
+                                 display: flex;
+                                 flex-direction: column;
+                                 background-color: #004058;
+                             }
+                             #prenom {
+                                 color: #FF00FF;
+                             }
+                             #souligne_dev {
+                                 border-bottom: solid;
+                                 border-color: rgb(9, 255, 21);
+                             }
+                             h1 {
+                                 margin-top: 10px;
+                             }
+                             h1,
+                             h2 {
+                                 text-align: center;
+                             }
+                             #titre {
+                                 order: 3;
+                                 margin-top: 10px;
+                             }
+                             .photo_header {
+                                 display: block;
+                                 margin: auto;
+                                 border: solid 3px rgba(10, 10, 10, 0.3);
+                                 border-radius: 50%;
+                                 width: 150px;
+                                 height: 150px;
+                                 overflow: hidden;
+                             }
+                             .photo_header {
+                                 width: 120%;
+                                 transform: translate(-12px, -80px);
+                             }
+                             /*----PAGE CENTRE------*/
+                             #page_corps {
+                                 margin-top: 10px;
+                             }
+                             .formation,
+                             .profession {
+                                 justify-content: space-around;
+                             }
+                             .puce_bloc {
+                                 margin-right: 50px;
+                                 min-width: 100px;
+                             }
+                             .recommandation {
+                                 justify-content: space-around;
+                                 margin-top: 15px;
+                             }
+                             /*----ASIDE------*/
+                             #liseret {
+                                 max-width: unset;
+                                 /*désactive la largeur max fixé à 270px en mode laptop*/
+                                 order: 2;
+                             }
+                             .aside_titre,
+                             .aside_titre_gras {
+                                 padding: 0.8%
+                             }
+                             #photo {
+                                 display: none;
+                             }
+                             .contact {
+                                 display: flex;
+                                 justify-content: space-between;
+                                 padding: 0;
+                             }
+                             #a_propos p {
+                                 margin: 3%;
+                             }
+                             .contact li {
+                                 margin: auto;
+                                 margin-bottom: 15px;
+                             }
+                             #loisrs {
+                                 display: none;
+                             }
+                         }
+                         
+                         @media all and (max-width: 700px) {
+                             .contact {
+                                 display: block;
+                                 text-align: center;
+                             }
+                         }
+                         /*----------------SMARTPHONES--------------------------------------*/
+                         
+                         @media all and (max-width: 576px) {
+                             #contenu {
+                                 font-size: 20px;
+                             }
+                             .photo_header {
+                                 transform: translate(-12px, -100px);
+                             }
+                             h1,
+                             h2 {
+                                 margin-left: 0;
+                             }
+                             h3 {
+                                 text-align: center;
+                             }
+                             .page_article {
+                                 margin-right: auto;
+                             }
+                             .icon_article {
+                                 margin-left: 5%;
+                             }
+                             .page_titre {
+                                 margin: 0;
+                                 margin-top: 10%;
+                                 justify-content: center;
+                                 align-items: center;
+                                 padding: 0;
+                             }
+                             .page_liste {
+                                 margin-left: 0;
+                                 text-align: center;
+                             }
+                             .formation,
+                             .profession {
+                                 flex-direction: column;
+                                 align-items: center;
+                                 margin-top: 10%;
+                             }
+                             .puce_bloc {
+                                 margin-bottom: 3%;
+                                 align-items: center;
+                                 margin-right: auto;
+                                 margin-left: auto;
+                             }
+                             h5 {
+                                 text-decoration: underline;
+                             }
+                             .texte_paragraphe p {
+                                 margin-top: 3%;
+                                 text-align: justify;
+                             }
+                             .recommandation {
+                                 text-align: center;
+                             }
+                         }
