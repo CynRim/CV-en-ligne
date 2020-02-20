@@ -10,7 +10,7 @@
                          #contenu {
                              font-family: 'alegreyregular', Georgia, 'Times New Roman', Times, serif;
                              font-size: 15px;
-                             background-color: #DADBDD;
+                             background-color: #FAFAFA;
                              color: #FFFFFF;
                              display: flex;
                              max-width: 900px;
@@ -22,7 +22,7 @@
                          }
                          
                          a {
-                             color: #D4E0CE;
+                             color: #CFD8DC;
                          }
                          /*----ASIDE------*/
                          
@@ -78,7 +78,6 @@
                          
                          .contact {
                              padding-left: 8%;
-                             font-weight: bold;
                              overflow-wrap: break-word;
                          }
                          
@@ -122,7 +121,7 @@
                          
                          #prenom {
                              font-weight: 400;
-                             color: #004058;
+                             color: #006064;
                          }
                          
                          h2 {
@@ -133,16 +132,16 @@
                              color: rgba(06, 06, 06, 1)
                          }
                          
-                         #souligne_dev {
+                         #surligne_dev {
                              border-bottom: solid;
-                             border-color: #004058;
+                             border-color: #006064;
                          }
                          
                          #photo_mobile {
                              display: none;
                              align-self: center;
                              margin-top: 30px;
-                             border: solid 3px rgba(0, 64, 88, 0.3);
+                             border: solid 3px rgba(0, 96, 100, 0.3);
                              border-radius: 50%;
                              width: 150px;
                              height: 150px;
@@ -174,7 +173,7 @@
                          }
                          
                          .icon_article {
-                             color: #FF0000;
+                             color: #006064;
                          }
                          
                          .page_titre div {
@@ -199,7 +198,7 @@
                          }
                          
                          .page_puce {
-                             color: #00FFF0;
+                             color: #006064;
                              font-size: 0.8em;
                              margin-right: 10px;
                          }
@@ -260,7 +259,7 @@
                                  margin: auto;
                                  display: flex;
                                  flex-direction: column;
-                                 background-color: #004058;
+                                 background-color: #006064;
                              }
                              #prenom {
                                  color: #FF00FF;
