@@ -343,7 +343,7 @@
                                  text-align: center;
                              }
                          }
-                         /*----------------SMARTPHONES--------------------------------------*/
+                         /*----SMARTPHONES----*/
                          
                          @media all and (max-width: 576px) {
                              #contenu {
