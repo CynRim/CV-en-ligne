@@ -98,7 +98,9 @@
      display: flex;
      justify-content: space-around;
      flex-wrap: wrap;
-     margin-bottom: 5%;
+     font-size: 30px;
+     margin-bottom: 10%;
+     border-radius: 50%;
      color: #FFF;
  }
  /*---- HEADER ----*/
