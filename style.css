@@ -89,6 +89,10 @@
      flex: 1;
  }
  
+ #a_propos p {
+     color: #FFF;
+ }
+ 
  aside p {
      text-align: justify;
      margin: 8%;
