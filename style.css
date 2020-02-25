@@ -48,9 +48,10 @@
      display: none;
  }
  
- .logo {
+ .image {
      display: block;
      max-width: 120%;
+     transform: translate(-10px, -15px);
  }
  
  .aside_titre {
@@ -293,7 +294,7 @@
      }
      .logo_header {
          width: 120%;
-         transform: translate(-12px, -80px);
+         transform: translate(-12px, -60px);
      }
      /*----PAGE CENTRE----*/
      #centre {
@@ -353,7 +354,7 @@
          font-size: 20px;
      }
      .logo_header {
-         transform: translate(-12px, -100px);
+         transform: translate(-12px, -200px);
      }
      h1,
      h2 {
