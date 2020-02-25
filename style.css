@@ -297,7 +297,7 @@
          transform: translate(-10px, -15px);
      }
      /*----PAGE CENTRE----*/
-     #centre {
+     +#centre {
          margin-top: 10px;
      }
      .formation,
@@ -354,7 +354,7 @@
          font-size: 20px;
      }
      .logo_header {
-         transform: translate(-12px, -200px);
+         transform: translate(-10px, -15px);
      }
      h1,
      h2 {
