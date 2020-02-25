@@ -297,7 +297,7 @@
          transform: translate(-10px, -15px);
      }
      /*----PAGE CENTRE----*/
-     +#centre {
+     #centre {
          margin-top: 10px;
      }
      .formation,
@@ -336,9 +336,6 @@
          margin: auto;
          margin-bottom: 15px;
      }
-     .icon_loisirs {
-         display: none;
-     }
  }
  
  @media all and (max-width: 700px) {
@@ -354,7 +351,7 @@
          font-size: 20px;
      }
      .logo_header {
-         transform: translate(-10px, -15px);
+         transform: translate(-15px, -83px);
      }
      h1,
      h2 {
