@@ -282,7 +282,7 @@
          order: 3;
          margin-top: 10px;
      }
-     .photo_header {
+     #cadre_logo {
          display: block;
          margin: auto;
          border: solid 3px rgba(10, 10, 10, 0.3);
@@ -291,12 +291,12 @@
          height: 150px;
          overflow: hidden;
      }
-     .photo_header {
+     .logo_header {
          width: 120%;
          transform: translate(-12px, -80px);
      }
      /*----PAGE CENTRE----*/
-     #page_corps {
+     #centre {
          margin-top: 10px;
      }
      .formation,
@@ -320,7 +320,7 @@
      .aside_titre_gras {
          padding: 0.8%
      }
-     #photo {
+     ##logo {
          display: none;
      }
      .contact {
@@ -335,7 +335,7 @@
          margin: auto;
          margin-bottom: 15px;
      }
-     #loisrs {
+     #loisirs {
          display: none;
      }
  }
@@ -352,7 +352,7 @@
      #contenu {
          font-size: 20px;
      }
-     .photo_header {
+     .logo_header {
          transform: translate(-12px, -100px);
      }
      h1,
@@ -362,7 +362,7 @@
      h3 {
          text-align: center;
      }
-     .page_article {
+     .page_corps {
          margin-right: auto;
      }
      .icon_article {
@@ -394,7 +394,7 @@
      h5 {
          text-decoration: underline;
      }
-     .texte_paragraphe p {
+     .texte p {
          margin-top: 3%;
          text-align: justify;
      }
