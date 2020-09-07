@@ -19,6 +19,6 @@
 
 ### Site web statique :
 
-Maquette du site [ici](https://cynrim.github.io/Projet2-CV/)
-CV en ligne [ici](a-venir)
+* Maquette du site [ici](https://cynrim.github.io/Projet2-CV/)
+* CV en ligne [à venir](a-venir)
 
