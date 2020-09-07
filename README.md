@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Projet n°2 - Parcours Développeur Web - [OpenClassrooms](https://openclassrooms.com/ "OpenClassrooms")
 ## Transformez votre CV en site Web
 
